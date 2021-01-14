@@ -1,17 +1,21 @@
 # Word Cloud Generator
 Python program to generate word cloud.
 
+<p align="center">
+  <img src="Word_ClouD.gif" width=400px height=400px>
+</p>
+
 #### Cloning the repository
-`git clone `
+`git clone https://github.com/gh05t-4/Word-Cloud-Python.git`
 
 #### Installing Requirements
 ```Bash
-cd 
+cd Word-Cloud-Python
 pip3 install -r requirements.txt
 ```
 
 #### Usage
-```Bash
+```
 chmod +x wordcloudgen.py
 
 ./wordcloudgen.py -f <filename> [options]
@@ -26,7 +30,7 @@ Options:
 ```
 
 ##### Example
-```Bash
+```
 ./wordcloudgen.py -f python_wiki.txt -i hand.png -cm Set1 -bg 'black' -wd 1000 -ht 800
 
 
