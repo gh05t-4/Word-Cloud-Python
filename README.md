@@ -6,19 +6,19 @@ Python program to generate word cloud.
 </p>
 
 #### Cloning the repository
-`git clone https://github.com/gh05t-4/Word-Cloud-Python.git`
+`$ git clone https://github.com/gh05t-4/Word-Cloud-Python.git`
 
 #### Installing Requirements
 ```Bash
-cd Word-Cloud-Python
-pip3 install -r requirements.txt
+$ cd Word-Cloud-Python
+$ pip3 install -r requirements.txt
 ```
 
 #### Usage
 ```
-chmod +x wordcloudgen.py
+$ chmod +x wordcloudgen.py
 
-./wordcloudgen.py -f <filename> [options]
+$ ./wordcloudgen.py -f <filename> [options]
 
 Options:
   -i, image render for custom shapes.
@@ -31,7 +31,7 @@ Options:
 
 ##### Example
 ```
-./wordcloudgen.py -f python_wiki.txt -i hand.png -cm Set1 -bg 'black' -wd 1000 -ht 800
+$ ./wordcloudgen.py -f python_wiki.txt -i hand.png -cm Set1 -bg 'black' -wd 1000 -ht 800
 
 
 
