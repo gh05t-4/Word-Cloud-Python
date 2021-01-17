@@ -20,7 +20,7 @@ class WordCloudMaker:
 	def make_word_cloud(self):
 		"""Creates wordcloud based the given input files and properties and displays the word cloud."""
 		try:
-			with open(self.in_file, 'r') as file:
+			with open(self.in_file, encoding='utf-8', errors='ignore') as file:
 				text = file.read()
 		except:
 			print(f"[*]Error: {self.in_file} not found.")
